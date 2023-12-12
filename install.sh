@@ -5,6 +5,7 @@ if [ "$(whoami)" == "root" ]; then
 fi
 
 ruta=$(pwd)
+usuario=$(whoami)
 
 # Instalando dependencias de Entorno
 
@@ -77,7 +78,7 @@ sudo cp -v $ruta/fonts/HNF/* /usr/local/share/fonts/
 
 sudo cp -v $ruta/Config/polybar/fonts/* /usr/share/fonts/truetype/
 
-# Instalando Wallpaper de S4vitar
+# Instalando Wallpaper
 
 mkdir ~/Wallpaper
 cp -v $ruta/Wallpaper/* ~/Wallpaper
@@ -119,6 +120,8 @@ sudo wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/plugins/sudo/
 # Cambiando de SHELL a zsh
 
 sudo ln -s -fv ~/.zshrc /root/.zshrc
+usermod --shell /usr/bin/zsh $usuario
+usermod --shell /usr/bin/zsh root
 
 # Asignamos Permisos a los Scritps
 
