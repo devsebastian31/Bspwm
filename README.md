@@ -5,7 +5,7 @@
 1.- Uso del Script
 
 ```bash
-git clone https://github.com/SebastianZhunaula/Bspwm.git
+git clone https://github.com/Devsebastian31/Bspwm.git
 
 cd Bspwm
 
