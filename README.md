@@ -14,7 +14,15 @@ chmod +x install.sh
 ./install.sh
 ```
 
-En la selleccion de rofi esojer el tema que te guste
+# Para la selección de Rofi
+
+```bash
+rofi-theme-selector
+
+rounded-purple-dark
+
+Alt-a
+```
 
 <p align="center">
     <img src="Fondo.png">
