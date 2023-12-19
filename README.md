@@ -14,7 +14,7 @@ chmod +x install.sh
 ./install.sh
 ```
 
-# Para la selección de Rofi
+### Para la selección de Rofi
 
 ```bash
 rofi-theme-selector
