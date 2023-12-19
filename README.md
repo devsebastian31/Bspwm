@@ -2,7 +2,7 @@
 
 ### Uso del Script
 
-1.- Uso del Script
+1.- Uso del Scrip
 
 ```bash
 git clone https://github.com/Devsebastian31/Bspwm.git
