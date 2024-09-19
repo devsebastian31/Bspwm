@@ -2,7 +2,7 @@
 
 ### Uso del Script
 
-1.- Uso del Script
+1\.- Uso del Script
 
 ```bash
 git clone https://github.com/Devsebastian31/Bspwm.git
@@ -25,7 +25,7 @@ Alt-a
 ```
 
 <p align="center">
-    <img src="Fondo.png">
+<img src="Fondo.png">
 </p>
 
 ### Atajos del teclado
